@@ -4,16 +4,13 @@
 
 # OWASP Nest [Website](https://owasp.org/www-project-nest/) 
 
-[![OWASP](https://img.shields.io/badge/OWASP-Incubator-blue)](https://owasp.org/www-project-nest/) ![OWASP](https://img.shields.io/badge/OWASP-Code-blue) [![Slack](https://img.shields.io/badge/OWASP-Slack-blue.svg)](https://owasp.slack.com/messages/project-nest)
-  
-![Python 3.13](https://img.shields.io/badge/Python-3.13-41BE4A.svg) ![Django 5](https://img.shields.io/badge/Django-5-41BE4A.svg) ![Ruff](https://img.shields.io/badge/Ruff-0.8.4-41BE4A) ![PyTest](https://img.shields.io/badge/PyTest-8.3.4-41BE4A)
-  
-![Node 22](https://img.shields.io/badge/Node-22-blue.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg) ![ESLint](https://img.shields.io/badge/ESLint-9.17-blue) ![Prettier](https://img.shields.io/badge/Prettier-3.4.2-blue)
+[![OWASP](https://img.shields.io/badge/OWASP-Incubator-blue?style=for-the-badge)](https://owasp.org/www-project-nest/) ![OWASP](https://img.shields.io/badge/OWASP-Code-blue?style=for-the-badge) [![Project-Nest](https://img.shields.io/badge/OWASP-Join%20%23project--nest-8E44AD?logo=slack&logoColor=white&style=for-the-badge)](https://owasp.slack.com/messages/project-nest)
 
-![CI/CD](https://img.shields.io/github/actions/workflow/status/owasp/nest/ci-cd.yaml?branch=main&color=41BE41&style=flat&label=Build) ![License](https://img.shields.io/github/license/owasp/nest?style=flat&color=41BE4A&label=License) ![Contributors](https://img.shields.io/github/contributors/owasp/nest?style=flat&label=Contributors) ![Last Commit](https://img.shields.io/github/last-commit/owasp/nest/main?style=flat&label=Last%20commit)
+![CI/CD](https://img.shields.io/github/actions/workflow/status/owasp/nest/run-ci-cd.yaml?branch=main&color=41BE41&?label=Build&style=for-the-badge) ![License](https://img.shields.io/github/license/owasp/nest?color=41BE4A&label=License&style=for-the-badge)
 
-<img src='https://img.shields.io/github/stars/owasp/nest?style=for-the-badge' alt='Nest Stars' style='margin-right: 10px;'> 
-<img src='https://img.shields.io/github/forks/owasp/nest?style=for-the-badge' alt='Nest Forks' style='margin-right: 10px;'> 
+![Contributors](https://img.shields.io/github/contributors/owasp/nest?style=for-the-badge&label=Contributors)
+![Last Commit](https://img.shields.io/github/last-commit/owasp/nest/main?style=for-the-badge&label=Last%20commit)
+
 <img src='https://img.shields.io/github/issues/owasp/nest?style=for-the-badge' alt='Nest Issues' style='margin-right: 10px;'> 
 <img src='https://img.shields.io/github/issues-pr/owasp/nest?style=for-the-badge' alt='Nest PRs'>
 

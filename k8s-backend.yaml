@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: owasp-nest-backend-deployment
+  name: nest-backend-deployment
   labels:
-    app: owasp-nest-backend
+    app: nest-backend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: owasp-nest-backend
+      app: nest-backend
   template:
     metadata:
       labels:
-        app: owasp-nest-backend
+        app: nest-backend
     spec:
       containers:
-        - name: owasp-nest-backend-container
+        - name: nest-backend-container
           image: nest-backend:latest
           imagePullPolicy: IfNotPresent
           ports:
@@ -26,13 +26,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: owasp-nest-backend-service
+  name: nest-backend-service
   labels:
-    app: owasp-nest-backend
+    app: nest-backend
 spec:
   type: NodePort
   selector:
-    app: owasp-nest-backend
+    app: nest-backend
   ports:
     - protocol: TCP
       port: 8000

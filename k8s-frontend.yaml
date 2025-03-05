@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: owasp-nest-frontend-deployment
+  name: nest-frontend-deployment
   labels:
-    app: owasp-nest-frontend
+    app: nest-frontend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: owasp-nest-frontend
+      app: nest-frontend
   template:
     metadata:
       labels:
-        app: owasp-nest-frontend
+        app: nest-frontend
     spec:
       containers:
-      - name: owasp-nest-frontend-container
+      - name: nest-frontend-container
         image: nest-frontend:latest
         imagePullPolicy: IfNotPresent
         ports:
@@ -27,13 +27,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: owasp-nest-frontend-service
+  name: nest-frontend-service
   labels:
-    app: owasp-nest-frontend
+    app: nest-frontend
 spec:
   type: NodePort
   selector:
-    app: owasp-nest-frontend
+    app: nest-frontend
   ports:
     - protocol: TCP
       port: 3000
